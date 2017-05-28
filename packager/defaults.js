@@ -17,7 +17,7 @@ exports.assetExts = [
   'html', 'pdf', // Document formats
 ];
 
-exports.sourceExts = ['js', 'json'];
+exports.sourceExts = ['js', 'json', 'jsx'];
 
 exports.moduleSystem = require.resolve('./src/Resolver/polyfills/require.js');
 
